@@ -252,7 +252,7 @@ justify-content: center;
 }
 .boxwireframe {
     width:250px;
-    border: 15px red;
+    border: 15px;
     padding: 50px;
     margin: 20px;
     background-color: white;
@@ -265,7 +265,7 @@ justify-content: center;
 }
 .boxUIlogo {
     width:250px;
-    border: 15px red;
+    border: 15px;
     padding: 50px;
     margin: 20px;
     background-color: white;
@@ -277,7 +277,7 @@ justify-content: center;
 }
 .boxWeblogo {
     width:250px;
-    border: 15px red;
+    border: 15px;
     padding: 50px;
     margin: 20px;
     background-color: white;
@@ -385,4 +385,33 @@ justify-content: center;
 .Listskills ul{
     font-family: Arial, Helvetica, sans-serif;
     color: #5B5C61;
+}
+@media only sceen and (max-width:600px) {
+.Projects  {
+    display: column;
+}
+.boxgeo {
+    width: 100%;
+}
+.boxsura {
+    width: 100%;
+}
+.boxgap {
+    width: 100%;
+}
+.Skills2 {
+    display: column;
+}
+.boxresearch {
+    width: 100%;
+}
+.boxwireframe {
+    width: 100%;
+}
+.boxresearch {
+    width: 100%;
+}
+.boxresearch {
+    width: 100%;
+}
 }
